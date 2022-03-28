@@ -1,0 +1,35 @@
+nav{
+    background-color: rgb(122, 122, 243, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body{
+    background-image: url('1-background.jpg');
+    background-size: cover;
+    margin: 0;
+}
+.para{
+    text-align: center;
+    border-radius: 10px;
+    width: 800px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 15px 10px;
+    color: rgb(250, 186, 186);
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(156, 156, 156);
+    transition: 0.3s;
+}
+nav ul{
+    margin: 0;
+    background-color: rgba(82, 35, 192, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

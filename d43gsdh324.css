@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .bodyi { 
+    background-color: gray;
+    height: 1000px;
+  }
+  
+  .navi {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  .navi .nav-item {
+    
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    
+    margin-left: 25px;
+  }
+  
+  .navi .more-tab {
+    display: none;
+  }
+  
+  @media screen and (max-width: 275px) {
+    .navi .nav-item {
+      display: none;
+    }
+    
+    .navi li:nth-child(4) {
+      display: inline-block;
+      text-align: center;
+      
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+    
+    .drop-down {
+      display: none;
+    }
+    
+  .more-tab:hover .drop-down {
+      display: block;
+      
+      position: absolute;
+      top: 40px;
+      left: 0;
+      
+      background-color: white;
+      
+      height: 100px;
+      width: 115px;
+      
+      border: 1px solid lightblue;
+    }
+    
+    .more-tab:hover .drop-down li {
+      padding: 5px;
+    }
+  }
+  
+  .navi li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navi li a:hover {
+    border-bottom: 3px solid lightblue;
+  }
+  
+  .active {
+    border-bottom: 3px solid lightblue;
+  }
+  
+  .intro {
+    height: 225px;
+    width: 100%;
+    
+    background-color: lightblue;
+    
+    text-align: center;
+    
+    padding-top: 15px;
+    
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .intro h3 {
+    padding-top: 15px;
+  }
+  
+  .stuff {
+    
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    background-color: white;
+  }
+  
+  
+  .stuff h2 {
+    text-align: center;
+  }
+  
+  .stuff p {
+    padding-left: 15px;
+  }
+  .part1 {
+    padding-top: 30px;
+    height: 250px;
+    width: 315px;
+  }
+  
+  .part2 {
+    padding-top: 30px;
+    height: 250px;
+    width: 315px;
+    
+  }
+  
+  .part3 {
+    padding-top: 30px;
+    height: 250px;
+    width: 315px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .part1 {height: 250px;}
+    .part2 {height: 350px;}
+    .part3 {height: 350px;}
+  }
+  
+  .plans {
+    height: 300px;
+    width: 100%;
+    
+    background-color: lightblue;
+    
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+    
+    padding: 10px;
+  }
+  
+  @media screen and (min-width: 650px) and (max-width: 975px) {
+    .plans {
+      height: 400px;
+    }
+  }
+  
+  @media screen and (min-width:351px) and (max-width: 649px) {
+    .plans {
+      height: 650px;
+    }
+  }
+  /**************************   flag =  |5pZw61ii|Z   ****************************/
+  @media screen and (max-width: 350px) {
+    .plans {
+      height: 1200px;
+    }
+  }
+  
+  .plans h2 {
+    padding: 10px;
+  }
+  
+  .plans p {
+    padding: 15px;
+  }
+  
+  footer {
+    height: 175px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 250px) {
+    footer {
+      height: 250px;
+    }
+  }
+  
+  footer h2 {
+    padding-top: 15px;
+  }
+  
+  footer li {
+    padding: 10px;
+  }
+  
+  footer a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  footer li a:hover {
+    border-bottom: 3px solid lightblue;
+  }
